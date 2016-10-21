@@ -1,0 +1,30 @@
+{
+	"keywords" : [
+		"configphp",
+		"configphp",
+		"phpstaticinformations ",
+		"staticinformations "
+	],
+  "authors": [
+    {
+      "name": "Osvaldo Abel",
+      "email": "osvalldo.abel@gmail.com"
+    }
+  ],
+	
+	"autoload" : {
+		"psr-4" : {
+			"Osvaldoabel\\" : "src/osvaldoabel/"
+		}
+	},
+	"name" : "Osvaldoabel/app-config",
+	"type" : "library",
+	"description" : "A library to handle App Configurations",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=5.4"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "~4"
+	}
+}
