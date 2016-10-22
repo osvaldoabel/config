@@ -11,7 +11,7 @@
       "email": "osvalldo.abel@gmail.com"
     }
   ],
-	
+
 	"autoload" : {
 		"psr-4" : {
 			"Osvaldoabel\\" : "src/osvaldoabel/"

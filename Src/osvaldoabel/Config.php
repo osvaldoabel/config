@@ -11,7 +11,7 @@ class Config
    * @param String $keys [Receives an Array of keys]
    *
    */
-  public static function &get($keys)
+  public static function get($keys)
   {
     $arr = explode('.', $keys);
     $file = $arr[0].'.php';
@@ -27,8 +27,8 @@ class Config
           $array .= "['$key']";
       }
 
-      $config = eval('return $fileContent'."$array;");
-      return $config;
+      // $config = eval('return $fileContent'."$array;");
+      // return '$config';
     }
   }
 
