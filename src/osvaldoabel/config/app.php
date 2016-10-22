@@ -2,16 +2,16 @@
 
 return  [
   'fruits' => [
-    'item' => [
-      'id' => 121545154,
-      'name'  => 'banana',
-      'price' => 100
+    'items' => [
+      'item' => [
+        'id' => 999999,
+        'name'  => 'banana',
+        'price' => 100
+      ],
+      'options' => [
+        'id' => '999999'
+      ],
     ],
-    'item' => [
-      'id' => 121545154,
-      'name'  => 'Orange',
-      'price' => 45
-    ]
   ],
   'drinks' => [
     'item' => [
