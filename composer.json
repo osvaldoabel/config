@@ -16,7 +16,7 @@
 			"Osvaldoabel\\" : "src/osvaldoabel/"
 		}
 	},
-	"name" : "Osvaldoabel/app-config",
+	"name" : "osvaldoabel/app-config",
 	"type" : "library",
 	"description" : "A library to handle App Configurations",
 	"license" : "MIT",
